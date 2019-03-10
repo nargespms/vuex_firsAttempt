@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <sub1  v-bind:products="products"/>
-    <sub2  v-bind:products="products"/>
+    <sub1/>
+    <sub2/>
   </div>
 </template>
 
@@ -17,12 +17,7 @@ export default {
   },
   data () {
     return {
-        products: [
-            {name: 'Banana Skin', price: 20},
-            {name: 'Shiny Star', price: 40},
-            {name: 'Green Shells', price: 60},
-            {name: 'Red Shells', price: 80}
-        ]
+
     }
   }
 
